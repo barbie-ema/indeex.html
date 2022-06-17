@@ -1,0 +1,57 @@
+*{ margin: 3px;
+    padding: 0;
+    box-sizing: border-box; 
+    }
+Body {
+    font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif; font-size: 15px; background-color: hsl(0, 0%, 95%) ;}
+
+main { height: 100pc; width:50pc; flex-direction: row; display: flex; align-items: center; margin-left: 300px; margin-right:500px; margin-top:0;}
+@media only screen and (max-width: 1440px) {#main {margin:0}}
+
+
+.first-content { background-color: hsl(31, 77%, 52%);
+        padding: 50px;  margin: 0; border-top-left-radius: 5px; border-bottom-left-radius: 5px;
+    
+    }
+    .first-content h3{ color:hsl(0, 0%, 95%) ; font-weight: bold;font-size: 15px; padding-bottom: 10px;
+    }
+    .first-content p{ color: hsl(0, 0%, 100%, 0.75) ; font-weight: bold;font-size: 15px; padding-bottom: 10px;
+    }
+    .first-content button{ background-color:hsl(0, 0%, 100%, 0.75 ) ; color:hsl(340, 85%, 61%);
+        font-size: small; padding: 15px; border-radius: 35px; border: 0; width: 80%;
+    }
+    .first-content button:hover{ background-color: #f74f0c;
+        color: white;
+      }
+    .second-content { background-color: hsl(184, 100%, 22%);
+        padding: 50px;  margin: 0;
+    }
+    .second-content h3{  color:hsl(0, 0%, 95%) ;  font-weight: bold;font-size: 15px; padding-bottom: 10px;
+    
+    }
+    .second-content p{ color:hsl(0, 0%, 100%, 0.75 ); font-weight: bold;font-size: 15px; padding-bottom: 10px;
+    }
+    .second-content button{ background-color:hsl(0, 0%, 100%, 0.75 ) ; color:hsl(184, 100%, 22%);
+        font-size: small; padding: 15px; border-radius: 35px; border: 0; width: 80%;
+
+    }
+    .second-content button:hover{ background-color: hsl(184, 92%, 74%);
+        color: white;
+      }
+    .third-content { background-color: hsl(179, 100%, 13%);
+        padding: 50px;  margin: 0; border-top-right-radius: 5px; border-bottom-right-radius: 5px;
+    
+    }
+    .third-content h3{  color:hsl(0, 0%, 95%) ; font-weight: bold;font-size: 15px; padding-bottom: 10px;
+    
+    }
+    .third-content p{ color:hsl(0, 0%, 100%, 0.75) ; font-weight: bold;font-size: 15px; padding-bottom: 10px;
+    }
+    .third-content button{ background-color:hsl(0, 0%, 100%, 0.75 ) ; color:hsl(179, 100%, 13%);
+        font-size: small; padding: 15px; border-radius: 35px; border: 0; width: 80%;
+
+    } 
+    .third-content button:hover{ background-color: hsl(179, 29%, 70%);
+        color: white;
+      }
