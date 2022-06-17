@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{background-color:hsl(0, 3%, 7%)  ;
+display: block;
+place-items: center; min-height: 70vh;}
+main{display: grid;
+    gap: 3px; width: 250px;
+margin: auto;}
+main div{  text-align: center; margin: 2px; justify-content: center; }
+.grid-body {
+    background-color: rgb(87, 85, 85);
+  }
+  
+  .col-grid {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .col-grid:hover {
+    color: rgb(136, 230, 225);
+  }
+  
+  .wrapper {
+    max-width: 60%;
+    background-color: rgb(12, 12, 12);
+    height: 500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    gap: 10px;
+    
+  }
+  
+  .firstbox {
+    grid-column: 1/3;
+    background-color: rgba(248, 125, 9, 0.664);
+    text-align: center;
+    padding: 30px;
+    border-radius: 3px;
+    
+  }
+  .secondbox {
+    background-color: rgba(245, 202, 163, 0.815);
+    text-align: center;
+    padding: 30px;
+    border-radius: 3px;
+   
+  }
+  .thirdbox {
+    grid-row: 2/4;
+    background-color: rgb(109, 7, 122);
+    text-align: center;
+    padding: 30px;
+    border-radius: 3px;
+    
+  }
+  .fourthbox {
+    grid-column: 2/4;
+    background-color: rgb(13, 129, 110);
+    text-align: center;
+    padding: 30px;
+    border-radius: 3px;
+    
+  }
+  .fifthbox {
+    grid-column: 2/4;
+    background-color: rgb(13, 129, 110);
+    text-align: center;
+    padding: 30px;
+    border-radius: 3px;
+    
+    
+  }
+  
